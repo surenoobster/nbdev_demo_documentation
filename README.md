@@ -33,6 +33,9 @@ pip install -e '.[dev]'
 nbdev_preview (for hosting it on localhost)
 
 (nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_export
+
+
+
 (nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_install
 Installing or upgrading quarto -- this requires root access.
 [sudo] password for tvarit-pc: 
@@ -51,8 +54,14 @@ Obtaining file:///home/tvarit-pc/nbdev_demo_documentation
 Installing collected packages: nbdev-demo-documentation
   Running setup.py develop for nbdev-demo-documentation
 Successfully installed nbdev-demo-documentation-0.0.1
+
+
+
 (nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_build_docs
 nbdev_build_docs: command not found
+
+
+
 (nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_docs
 [1/2] 00_core.ipynb
 [2/2] index.ipynb
@@ -60,6 +69,10 @@ nbdev_build_docs: command not found
 Output created: _docs/index.html
 
 (nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ pip install -e '.[dev]'
+
+
+
+
 Obtaining file:///home/tvarit-pc/nbdev_demo_documentation
   Preparing metadata (setup.py) ... done
 Installing collected packages: nbdev-demo-documentation

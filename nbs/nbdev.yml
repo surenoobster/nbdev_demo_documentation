@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_demo_documentation"
+  site-url: "https://surenoobster.github.io/nbdev_demo_documentation"
+  description: "demo of documentation of nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/surenoobster/nbdev_demo_documentation"

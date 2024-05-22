@@ -25,18 +25,23 @@ Fill me in please! Don’t forget code examples:
 
 HOW TO BUILD DOCUMENTATION
 
-nbdev_export after completion of code 
+``` nbdev_export ```
+after completion of code 
 
 
 after that nbdev_install
 
-nbdev_docs #to build docs
+``` nbdev_docs ```
+
+#to build docs
 
 after that 
 
-pip install -e '.[dev]'
+``` pip install -e '.[dev]' ```
 
-nbdev_preview (for hosting it on localhost)
+``` nbdev_preview ```
+
+(for hosting it on localhost)
 
 
 Export Notebooks:

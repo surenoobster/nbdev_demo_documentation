@@ -21,3 +21,60 @@ Fill me in please! Don’t forget code examples:
 ```
 
     2
+
+
+HOW TO BUILD DOCUMENTATION
+
+nbdev_export after completion of code 
+after that nbdev_install
+nbdev_docs #to build docs
+after that 
+pip install -e '.[dev]'
+nbdev_preview (for hosting it on localhost)
+
+(nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_export
+(nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_install
+Installing or upgrading quarto -- this requires root access.
+[sudo] password for tvarit-pc: 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    72  100    72    0     0    182      0 --:--:-- --:--:-- --:--:--   182
+100   114    0   114    0     0    208      0 --:--:-- --:--:-- --:--:--   208
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+100  111M  100  111M    0     0  4086k      0  0:00:28  0:00:28 --:--:-- 3649k
+(Reading database ... 250824 files and directories currently installed.)
+Preparing to unpack quarto-linux-amd64.deb ...
+Unpacking quarto (1.4.554) over (1.4.554) ...
+Setting up quarto (1.4.554) ...
+Obtaining file:///home/tvarit-pc/nbdev_demo_documentation
+  Preparing metadata (setup.py) ... done
+Installing collected packages: nbdev-demo-documentation
+  Running setup.py develop for nbdev-demo-documentation
+Successfully installed nbdev-demo-documentation-0.0.1
+(nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_build_docs
+nbdev_build_docs: command not found
+(nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_docs
+[1/2] 00_core.ipynb
+[2/2] index.ipynb
+
+Output created: _docs/index.html
+
+(nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ pip install -e '.[dev]'
+Obtaining file:///home/tvarit-pc/nbdev_demo_documentation
+  Preparing metadata (setup.py) ... done
+Installing collected packages: nbdev-demo-documentation
+  Attempting uninstall: nbdev-demo-documentation
+    Found existing installation: nbdev-demo-documentation 0.0.1
+    Uninstalling nbdev-demo-documentation-0.0.1:
+      Successfully uninstalled nbdev-demo-documentation-0.0.1
+  Running setup.py develop for nbdev-demo-documentation
+Successfully installed nbdev-demo-documentation-0.0.1
+(nbdevdemo_env) tvarit-pc@in-l-c2n10b3:~/nbdev_demo_documentation$ nbdev_preview
+Preparing to preview
+[1/2] 00_core.ipynb
+[2/2] index.ipynb
+
+Watching files for changes
+Browse at http://localhost:3007/
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+GET: /
